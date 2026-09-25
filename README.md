@@ -16,7 +16,7 @@ An intelligent, context-aware chatbot built with **Streamlit** and Google's **Ge
 
 ## 🛠️ Project Structure
 
-```text
+
 chatbot_project/
 ├── .env                  # API keys (ignored by git)
 ├── .gitignore            # Git exclusion rules
@@ -27,7 +27,8 @@ chatbot_project/
     ├── gemini_service.py # Gemini API & language formatting
     ├── image_service.py  # Context-aware image lookups & Wikipedia API
     ├── voice_service.py  # Text cleanup & gTTS audio generation
-    └── pdf_service.py    # FPDF2 document generation
+    └── pdf_service.py    # FPDF2 document generation 
+
 
 🚀 Getting Started
 1. Prerequisites
@@ -79,5 +80,3 @@ Click Deploy.
 📄 License
 This project is licensed under the MIT License.
 
-Author
-**Sree**
